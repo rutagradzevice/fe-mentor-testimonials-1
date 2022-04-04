@@ -56,3 +56,29 @@ body {
 .card-jeanette {
   background-color: white;
 }
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: stretch;
+}
+
+.card-daniel {
+  grid-column: 1 / 4;
+}
+
+.card-johnathan {
+  grid-column: 4 / 5;
+}
+
+.card-kira {
+  grid-column: 5 / -1;
+  grid-row: -1 / 3;
+}
+
+.card-patrick {
+  grid-column: -5 / -2;
+}
+.card-jeanette {
+  grid-column: -6 / -5;
+}
