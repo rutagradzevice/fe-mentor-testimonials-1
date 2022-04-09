@@ -82,3 +82,8 @@ body {
 .card-jeanette {
   grid-column: -6 / -5;
 }
+
+* {
+  column-gap: 20px;
+  row-gap: 20px;
+}
